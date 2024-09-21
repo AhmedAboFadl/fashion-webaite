@@ -1,0 +1,487 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(105, 92, 224);
+
+
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100%;
+    background-color: rgba(59, 60, 116, 0.534);
+    color: white;
+
+
+}
+.header  li {
+
+
+    list-style: none;
+}
+.header li a{
+text-decoration: none;
+font-size: 24px;
+font-family:cursive;
+color: white;
+cursor: pointer;
+transition: 0,2s ease;
+
+
+
+}
+
+li a:hover{
+    color:red;
+    transform: scale(1.1);
+    border-bottom: 100px;
+}
+.header ul{
+    display: flex;
+    gap: 80px;
+
+}
+.logo{
+font-weight: 800;
+
+    position: relative;
+    right: 200px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+
+}
+.home{
+    border-radius: 90px ;
+    height: 40px;
+    width: 80px;
+    background-color: rgba(226, 178, 90, 0.507);
+}
+.home:hover{
+    color: rgb(61, 50, 161);
+}
+.mian{
+
+    position: relative;
+    bottom:20px;
+    width: 50%;
+    height: 630px;
+    background-color: red;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.imges{
+    display: flex;
+    height: 100%;
+    animation: imges 8s infinite;
+
+}
+.imges img{
+    height: 100%;
+    width: 50%;
+
+    object-fit: cover;
+}
+
+.continer{
+position: relative;
+bottom: 500px;
+left: 720px;
+}
+.continer h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 55px;
+}
+.continer  p{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.continer span{
+    font-size:70px ;
+    letter-spacing: 10px;
+    color: rgb(12, 14, 146);
+}
+.btn1{
+    background-color: rgba(226, 178, 90, 0.507);
+
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transform: translate(0px,20px);
+    cursor: pointer;
+
+}
+.btn2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+
+    transform: translate(30px,20px);
+    font-size: 15px;
+    background-color: rgba(3, 1, 44, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.btn1:hover{
+    background-color: rgba(122, 125, 138, 0.432);
+}
+.btn2:hover{
+    background-color: rgb(187, 17, 17);
+
+}
+.social{
+
+position:relative;
+height: 70px;
+width: 130px;
+    display: flex;
+margin: 10px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+color: white;
+transform: 0.3s;
+font-size: 20px;
+}
+.social div:hover{
+    border-radius: 100%;
+    box-shadow: 0 0 60px 10px red;
+    scale: 1.5;
+
+
+}
+
+
+.welcome{
+    position: absolute;
+    top: 900px;
+    right: 890px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.7s;
+    color: rgb(133, 133, 202);
+
+    letter-spacing: 20px;
+    width: 20px;
+}
+
+.welcome:hover{
+    scale: 1.1;
+
+}
+.boxs{
+    position: relative;
+    top: 200px;
+    height: 300px;
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+.box{
+
+    border: 2px solid white;
+    border-radius: 40px;
+    background:linear-gradient(to right ,rgba(141, 55, 55, 0.527),rgba(60, 60, 88, 0.644));
+    color: white;
+    transition:0.5s ;
+    cursor: pointer;
+
+}
+.box h3{
+transform: translate(30px,-10px);
+font-size: 30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box p{
+transform: translate(20px,20px);
+font-size: 20px;
+line-height: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box:hover{
+
+    scale: 1.1;
+    text-shadow: rgb(28, 63, 218) 10px 10px 8px ;
+    text-decoration:  white underline 2px;
+
+}
+
+
+.grow1{
+position: relative;
+transform: translate(0px,390px);
+width: 50%;
+height: 500px;
+display:flex;
+background-color: rgba(212, 192, 155, 0.541);
+border-radius: 50px;
+overflow-x: hidden;
+overflow-y: hidden;
+margin:20px ;
+
+
+}
+
+.grow1 img{
+border-radius: 100px;
+width: 10%;
+height: 490px;
+object-fit: cover;
+padding: 10px;
+transition: 1.6s;
+cursor: pointer;
+flex-grow: 1;
+
+}
+.grow1 img:hover{
+
+object-fit: cover;
+border-radius: 0px;
+flex-grow: 10;
+
+
+}
+.grow2{
+position: relative;
+left: 48%;
+top: 300px;
+width: 50%;
+height: 500px;
+display: flex;
+overflow-y: hidden;
+overflow-x: hidden;
+flex-direction: row-reverse;
+background-color: rgba(155, 23, 23, 0.918);
+border-radius: 50px;
+}
+.grow2 img{
+    border-radius: 100px;
+    width: 10%;
+    height: 500px;
+    object-fit: cover;
+    padding: 10px;
+    transition: 0.8s;
+    cursor: pointer;
+    flex-grow: 1;
+
+}
+.grow2 img:hover{
+
+flex-grow: 6;
+    object-fit: cover;
+    border-radius: 0px;
+}
+.newstyles{
+position:relative;
+left: 770px;
+color: wheat;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 30px;
+
+}
+.newcollection{
+    position: relative;
+    left: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 10px;
+    color: wheat;
+
+}
+.back-searsh{
+position: relative;
+top:300px;
+width: 100%;
+height: 300px;
+
+
+
+
+}
+.back-searsh img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+.back-searsh h3{
+
+color: rgb(255, 0, 0);
+position: absolute;
+bottom: 180px;
+left: 410px;
+font-size: 26px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back-searsh p{
+
+color: rgb(255, 0, 0);
+position: absolute;
+bottom: 160px;
+left: 410px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back-searsh input[type="search"]{
+color:black;
+position: absolute;
+bottom: 100px;
+left: 350px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: none;
+width: 500px;
+height: 50px;
+cursor: pointer;
+padding-left: 180px;
+}
+.back-searsh input[type="submit"]{
+color:black;
+position: absolute;
+bottom: 100px;
+left: 850px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: none;
+width: auto;
+height: 50px;
+cursor: pointer;
+
+background-color: rgba(202, 15, 15, 0.322);
+}
+.aa{
+position: relative;
+top: 100px;
+margin: 10px;
+}
+.follow{
+
+position: relative;
+top: 380px;
+
+
+}
+.follow h3{
+
+color: rgb(255, 255, 255);
+transform: translate(450px,-40px);
+
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.follow p{
+
+color: rgb(255, 255, 255);
+transform: translate(420px,-50px);
+
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wrapper{
+    position: relative;
+    top: 450px;
+padding: 60px;
+display: flex;
+height: 500px;
+width: 100%;
+gap: 100px;
+}
+.card{
+position: relative;
+width: 280px;
+height: 360px;
+margin: 10px;
+box-shadow: 0px 7px 10px ;
+transition: 0.5s all;
+
+}
+
+.card:hover{
+
+
+transform: translateY(20px);
+
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+position: absolute;
+top:0;
+left: 0;
+transition: 0.5s all;
+}
+
+
+.card .info{
+    opacity: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+position: relative;
+top: 60px;
+transform: translateY(0px);
+padding: 60px;
+transition: 0.5s all;
+overflow-y: hidden;
+}
+
+.card:hover .info {
+    background:linear-gradient(to bottom ,rgba(141, 209, 32, 0.527),rgba(129, 129, 224, 0.644));
+
+    opacity: 1;
+transform: translateY(-30px);
+}
+
+
+.footer{
+position: relative;
+top:450px;
+height: 210px;
+width: 100%;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.footer .about{
+
+transform: translate(40px,20px);
+   color: white;
+   letter-spacing: 1px;
+font-size: 20px;
+}
+.footer .about h3{
+
+transform: translate(80px);
+font-size: 35px;
+
+}
+.Quick{
+
+transform: translate(650px,-160px);
+text-decoration: underline;
+color: white;
+    position: relative;
+}
+.contact-info{
+position: relative;
+color:white;
+transform: translate(900px,-350px);
+
+
+
+}
+.video{
+
+    border-radius: 100px;
+}
